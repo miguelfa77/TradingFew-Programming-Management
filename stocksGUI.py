@@ -267,8 +267,6 @@ def main():
     GOOG = companies[3].dropna()
     NFLX = companies[4].dropna()
 
-    print(AMZN)
-
 # GUI
     win = GraphWin('TradingFew', 400, 600)
     win.setBackground("black")
